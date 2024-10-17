@@ -76,9 +76,9 @@ multipleOf(15)
 
 function itsOdd(toCheck) {
     if (toCheck % 2 === 0) {
-        console.log('Es un número par')
+        console.log('Es un número par');
     } else {
-        console.log('Es un número impar')
+        console.log('Es un número impar');
     }
 }
 
@@ -87,11 +87,11 @@ itsOdd(18)
 
 function esBisiesto(year) {
     if (year % 4 === 0 && year % 100 !== 0) {
-        console.log('Es un año bisiesto')
+        console.log('Es un año bisiesto');
     } else if (year % 4 === 0 && year % 400 === 0){
-        console.log('Es un año bisiesto')
+        console.log('Es un año bisiesto');
     } else {
-        console.log('No es un año bisiesto')
+        console.log('No es un año bisiesto');
     }
 }
 
